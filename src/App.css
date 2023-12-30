@@ -1,38 +1,381 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #333;
+}
+
+.logo {
+  width: 100px;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.9rem 0;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+nav {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+nav ul a {
+  text-decoration: none;
+  color: white;
+  padding: 0 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 0.83rem;
+}
+.search a {
+  font-size: 1.05rem;
+  padding: 0.3rem;
+}
+
+.hamburger {
+  padding-left: 1.5rem;
+}
+.hamburger a {
+  padding: 0;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: flex;
+  background-color: rgba(115, 115, 115, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  justify-content: center;
+  align-items: center;
+}
+.hamburger .bar {
+  position: relative;
+  width: 52%;
+  height: 1.3px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+.hamburger .bar::before,
+.hamburger .bar::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 100%;
+  background-color: inherit;
+  border-radius: 2px;
+}
+
+.hamburger .bar::before {
+  top: -4.5px;
+}
+.hamburger .bar::after {
+  top: 4.5px;
+}
+
+main {
+  position: relative;
+  background-color: #353;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+ 
+}
+
+.bg-img {
+  position: absolute;
+  width: 2800px;
+  /* top: calc(50%-390px);
+  left: calc(50%+10px); */
+  top: calc(50% - 280px);
+  left: calc(50% + 10px);
+ transform: translate(-50%, -50%);
+ z-index: 1;
+ /* pointer-events: none; */
+}
+
+.fog-7 {
+  position: absolute;
+  width: 1700px;
+  transform: translate(-50%, -50%);
+  top: calc(55%);
+  left: calc(62%);
+
+ z-index: 2;
+}
+
+.mountain-10{
+  position: absolute;
+  width: 892px;
+  top: calc(57%);
+  left: calc(57%);
+ transform: translate(-50%, -50%);
+ z-index: 3;
+}
+
+
+
+.fog-6 {
+  position: absolute;
+  width: 1610px;
+  top: calc(58%);
+  left: calc(52%);
+ transform: translate(-50%, -50%);
+ z-index: 4;
+}
+
+.mountain-9{
+  position: absolute;
+  width: 470px;
+  top: calc(85%);
+  left: calc(16%);
+ transform: translate(-50%, -50%);
+ z-index: 5;
+}
+
+.mountain-8{
+  position: absolute;
+  width: 680px;
+  top: calc(72%);
+  left: calc(33%);
+ transform: translate(-50%, -50%);
+ z-index: 6;
+}
+
+.fog-5 {
+  position: absolute;
+  width:450px;
+  top: calc(64%);
+  left: calc(53%);
+ transform: translate(-50%, -50%);
+ z-index: 7;
+}
+
+.mountain-7{
+  position: absolute;
+  z-index: 8;
+  width: 538px;
+  left: calc(68%);
+  top: calc(68%);
+  transform: translate(-50%,-50%);
+}
+
+
+.text{
+  position: absolute;
+  z-index: 9;
+  top: calc(40%);
+  left: 50%;
+  transform: translate(-50%,-50%);
   text-align: center;
+  text-transform: uppercase;
+  color: white;
+  /* pointer-events: stroke; */
+} 
+::selection {
+  background-color: #0b372dbb;
+}
+.text h2{
+  font-weight: 100;
+  font-size: 6.5rem;
+  line-height: 0.88;
+}
+.text h1{
+  font-weight: 800;
+  font-size: 8rem;
+  line-height: 0.88;
 }
 
-.App-logo {
-  height: 40vmin;
+.mountain-6{
+  position: absolute;
+  width: 502px;
+  top: calc(80%);
+  left: calc(90%);
+ transform: translate(-50%, -50%);
+ z-index: 10;
+}
+
+
+
+.fog-4 {
+   position: absolute;
+  width: 1400px;
+  top: calc(58%);
+  left: calc(85%);
+ transform: translate(-50%, -50%);
+ z-index: 11;
+}  
+
+.mountain-5{
+  position: absolute;
+  width: 382px;
+  top: calc(80%);
+  left: calc(54%);
+ transform: translate(-50%, -50%);
+ z-index: 12;
+}
+
+.fog-3 {
+  position: absolute;
+  width:450px; 
+  top: calc(80%);
+  left: calc(50%);
+ transform: translate(-50%, -50%);
+ z-index: 13; 
+}
+
+ .mountain-4{
+  position: absolute;
+  width: 572px; 
+  /* top: calc(50%+69px);
+  left: calc(50%+230px);  */
+   top: calc(78%);
+  left: calc(70%);
+ transform: translate(-50%, -50%);
+ z-index: 14; 
+} 
+
+.mountain-3 {
+  position: absolute;
+  width: 302px; 
+   top: calc(88%);
+  left: calc(90%);
+ transform: translate(-50%, -50%);
+ z-index: 15; 
+}
+.fog-2{
+  position: absolute;
+  width:700px; 
+  top: calc(70%);
+  left: calc(80%);
+ transform: translate(-50%, -50%);
+ z-index: 16; 
+}
+.mountain-2 {
+  position: absolute;
+  width: 402px; 
+   top: calc(70%);
+  left: calc(25%);
+ transform: translate(-50%, -50%);
+ z-index: 17; 
+}
+.mountain-1 {
+  position: absolute;
+  width: 542px; 
+   top: calc(70%);
+  left: calc(10%);
+ transform: translate(-50%, -50%);
+ z-index: 18; 
+}
+
+.sun-rays {
+position: absolute;
+z-index: 19;
+width: 590px;
+top: 0;
+right: 0;
+pointer-events: none;
+}
+
+.black-shadow {
+position: absolute;
+z-index: 20;
+bottom: 0;
+right: 0;
+width: 100%;
+pointer-events: none;
+}
+
+.fog-1 {
+  position: absolute;
+  z-index: 21;
+  width: 1600px;
+  top: calc(80%);
+  left: 80%;
+  transform: translate(-50%,-50%);
+}
+
+.parallax {
   pointer-events: none;
+  transition: 0.45s cubic-bezier(.2,.49,.32,.99);
+  transform: translate(-50%,-50%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.vignette{
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: radial-gradient(ellipse at center,rgba(0,0,0,0) 65% ,rgba(0,0,0,0.7));
+pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box {
+  background-color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.heading {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 20px 40px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.images {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.images img {
+  width: 400px;
+  border-radius: 10px;
+}
+@media screen and (max-width:800px) {
+  .images{
+    width: 95%;
   }
-  to {
-    transform: rotate(360deg);
+  .images img{
+    width: 95%;
+    margin: 0 auto;
+  }
+ 
+  .mobilenone{
+    display: none;
+  }
+  .text h2{
+    font-weight: 100;
+    font-size: 3rem;
+    line-height: 0.9;
+    margin-bottom: 0.5rem;
+  }
+  .text h1{
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 0.88;
   }
 }
