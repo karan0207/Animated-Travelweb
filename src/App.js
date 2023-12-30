@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import "./App.css";
 // import logo from "./assets/img/logo.png"
-import {logo,background,fog1,fog2,fog3,fog4,fog5,fog6,fog7,mountain1,mountain2,mountain3,mountain4,mountain5,mountain6,mountain7,mountain8,mountain9,mountain10,sunrays,blackshadow} from "./assets/img/index.js";
-import shadows from "@mui/material/styles/shadows.js";
+import {logo,background,fog1,fog2,fog3,fog4,fog5,fog6,fog7,mountain1,mountain2,mountain3,mountain4,mountain5,mountain6,mountain7,mountain8,mountain9,mountain10,sunrays,blackshadow,hotel1,hotel2,hotel3} from "./assets/img/index.js";
+// import shadows from "@mui/material/styles/shadows.js";
 
 const ParallaxComponent = () => {
   const [xValue, setXValue] = useState(0);
@@ -286,9 +286,9 @@ const ParallaxComponent = () => {
         <h1>RESORTS</h1>
     </div>
         <div className="images">
-    <img src="https://imgs.search.brave.com/3hdgd962cmnYRAxSnRXoKpkzgkmhnVgdNHhH2uOfDUo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTA3/NjE0NDUwL3Bob3Rv/L2x1eHVyeS1yZXNv/cnQtaG90ZWwtd2l0/aC1zd2ltbWluZy1w/b29sLWF0LXN1bnNl/dC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9ZVVpanp3LU1r/UHcwMEhBdzQ2NEkz/bXdhNGIxN3locmZ2/aDVIaUdaaUVxbz0" alt="" />
-    <img src="https://imgs.search.brave.com/b7yZVhSFKCPYGridEko2uC0cI2tyx8CXcHAKJ4f63bA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTU1/MTQ0MTQ3L3Bob3Rv/L2EtdHJvcGljYWwt/cmVzb3J0LXBvb2wt/aW4tZnJvbnQtb2Yt/dGhlLW9jZWFuLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz15/cURhbWZTa0lqX01K/ZG82Q2tocTlzYnI1/MGFyTEFCdGo5T0pH/RHEwN0k0PQ" alt="" />
-    <img src="https://imgs.search.brave.com/qOvrXE2NsB_c0UZPTX1MnsMAcdwhcQidpMoCCzQ1a80/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWM5LmRlcG9zaXRw/aG90b3MuY29tLzEw/MDc1OTMvMTEyNy9p/LzQ1MC9kZXBvc2l0/cGhvdG9zXzExMjc2/NjQyLXN0b2NrLXBo/b3RvLWx1eHVyeS1w/bGFjZS1yZXNvcnQu/anBn" alt="" />
+    <img src={hotel1} alt="hotel1" />
+    <img src={hotel2} alt="hotel2" />
+    <img src={hotel3} alt="hotel3" />
         </div>
         <div className="content">
          <p>

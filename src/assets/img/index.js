@@ -19,6 +19,8 @@ import mountain9 from "./mountain_9.png";
 import mountain10 from "./mountain_10.png";
 import sunrays from "./sun_rays.png";
 import blackshadow from "./black_shadow.png";
+import hotel1 from "./hotel1.webp";
+import hotel2 from "./hotel2.webp";
+import hotel3 from "./hotel3.webp";
 
-
-export {logo,background,fog1,fog2,fog3,fog4,fog5,fog6,fog7,mountain1,mountain2,mountain3,mountain4,mountain5,mountain6,mountain7,mountain8,mountain9,mountain10,sunrays,blackshadow};
+export {hotel1,hotel2,hotel3,logo,background,fog1,fog2,fog3,fog4,fog5,fog6,fog7,mountain1,mountain2,mountain3,mountain4,mountain5,mountain6,mountain7,mountain8,mountain9,mountain10,sunrays,blackshadow};
