@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Animated-Travelweb/static/css/main.397008d5.css",
+    "main.js": "/Animated-Travelweb/static/js/main.ff983400.js",
+    "static/media/background.png": "/Animated-Travelweb/static/media/background.3760b3159e7aede175b5.png",
+    "static/media/fog_7.png": "/Animated-Travelweb/static/media/fog_7.3c0849b92d8b3206ed4e.png",
+    "static/media/mountain_1.png": "/Animated-Travelweb/static/media/mountain_1.e5661b0620f162e0c05f.png",
+    "static/media/fog_1.png": "/Animated-Travelweb/static/media/fog_1.7f6ae699b32d9c15b5d8.png",
+    "static/media/mountain_10.png": "/Animated-Travelweb/static/media/mountain_10.bb98ab27cbdd15dcd4ee.png",
+    "static/media/mountain_2.png": "/Animated-Travelweb/static/media/mountain_2.de655d060efe57845e13.png",
+    "static/media/mountain_3.png": "/Animated-Travelweb/static/media/mountain_3.8cbf5ff061deb91b0025.png",
+    "static/media/mountain_8.png": "/Animated-Travelweb/static/media/mountain_8.8475730553b0068c0e3d.png",
+    "static/media/mountain_4.png": "/Animated-Travelweb/static/media/mountain_4.03b495841a497fc62006.png",
+    "static/media/mountain_5.png": "/Animated-Travelweb/static/media/mountain_5.9c02d6c4fd71fff522be.png",
+    "static/media/fog_6.png": "/Animated-Travelweb/static/media/fog_6.75975f89663e326c831f.png",
+    "static/media/fog_2.png": "/Animated-Travelweb/static/media/fog_2.fa844aaea6be811b0868.png",
+    "static/media/mountain_6.png": "/Animated-Travelweb/static/media/mountain_6.5a8c0e2e02d212840749.png",
+    "static/media/mountain_7.png": "/Animated-Travelweb/static/media/mountain_7.8b88319101b1a6e252ab.png",
+    "static/media/mountain_9.png": "/Animated-Travelweb/static/media/mountain_9.ad2c6a6e883f8327b77c.png",
+    "static/media/fog_3.png": "/Animated-Travelweb/static/media/fog_3.f0c3fd1a2c5daae4aad0.png",
+    "static/media/sun_rays.png": "/Animated-Travelweb/static/media/sun_rays.c5a77d31f5215da0bbf2.png",
+    "static/media/black_shadow.png": "/Animated-Travelweb/static/media/black_shadow.1835237063517f55f172.png",
+    "static/media/fog_4.png": "/Animated-Travelweb/static/media/fog_4.4de1dc300c92c2b63f3b.png",
+    "static/media/fog_5.png": "/Animated-Travelweb/static/media/fog_5.dfc825e4073d3c03fd39.png",
+    "static/media/hotel2.webp": "/Animated-Travelweb/static/media/hotel2.068da65df2eef04b8987.webp",
+    "static/media/hotel1.webp": "/Animated-Travelweb/static/media/hotel1.c6e0ef95039a230aec5e.webp",
+    "static/media/hotel3.webp": "/Animated-Travelweb/static/media/hotel3.b97e59a5f0f73bfeb340.webp",
+    "static/media/logo.png": "/Animated-Travelweb/static/media/logo.fc49f393a7e518de70e2.png",
+    "index.html": "/Animated-Travelweb/index.html",
+    "main.397008d5.css.map": "/Animated-Travelweb/static/css/main.397008d5.css.map",
+    "main.ff983400.js.map": "/Animated-Travelweb/static/js/main.ff983400.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.397008d5.css",
+    "static/js/main.ff983400.js"
+  ]
+}
