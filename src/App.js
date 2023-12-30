@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import "./App.css";
-
+// import logo from "./assets/img/logo.png"
+import {logo,background,fog1,fog2,fog3,fog4,fog5,fog6,fog7,mountain1,mountain2,mountain3,mountain4,mountain5,mountain6,mountain7,mountain8,mountain9,mountain10,sunrays,blackshadow} from "./assets/img/index.js";
+import shadows from "@mui/material/styles/shadows.js";
 
 const ParallaxComponent = () => {
   const [xValue, setXValue] = useState(0);
@@ -59,22 +61,22 @@ const ParallaxComponent = () => {
     <>
       <header>
         <nav>
-          <img src="img/logo.png" alt="travelo" class="logo" />
+          <img src={logo} alt="travelo" class="logo" />
           <ul>
             <li  className="mobilenone">
-              <a href="#">Login</a>
+              <a href="https://github.com/karan0207/Animated-Travelweb">Login</a>
             </li>
             <li  className="mobilenone">
-              <a href="#">Sign up</a>
+              <a href="https://github.com/karan0207/Animated-Travelweb">Sign up</a>
             </li>
             <li class="search mobilenone">
-              <a href="#">
+              <a href="https://github.com/karan0207/Animated-Travelweb">
                 <SearchIcon />
               </a>
             </li>
 
             <li class="hamburger">
-              <a href="#">
+              <a href="https://github.com/karan0207/Animated-Travelweb">
                 <div class="bar"></div>
               </a>
             </li>
@@ -85,7 +87,7 @@ const ParallaxComponent = () => {
       <main>
         <div className="vignette"></div>
         <img
-          src="img/background.png"
+          src={background}
           alt="img1"
           data-speedx="0.3"
           data-speedy="0.38"
@@ -95,7 +97,7 @@ const ParallaxComponent = () => {
           data-distance="-200"
         />
         <img
-          src="img/fog_7.png"
+          src={fog7}
           alt="img2"
           data-speedx="0.27"
           data-speedy="0.32"
@@ -105,7 +107,7 @@ const ParallaxComponent = () => {
           data-distance="850"
         />
         <img
-          src="img/mountain_10.png"
+          src={mountain10}
           alt="img3"
           data-speedx="0.195"
           data-speedy="0.305"
@@ -115,7 +117,7 @@ const ParallaxComponent = () => {
           data-distance="1100"
         />
         <img
-          src="img/fog_6.png"
+          src={fog6}
           alt="img4"
           data-speedx="0.25"
           data-speedy="0.28"
@@ -125,7 +127,7 @@ const ParallaxComponent = () => {
           data-distance="1400"
         />
         <img
-          src="img/mountain_9.png"
+          src={mountain9}
           alt="img5"
           data-speedx="0.125"
           data-speedy="0.155"
@@ -135,7 +137,7 @@ const ParallaxComponent = () => {
           data-distance="1700"
         />
         <img
-          src="img/mountain_8.png"
+          src={mountain8}
           alt="img6"
           data-speedx="0.1"
           data-speedy="0.11"
@@ -145,7 +147,7 @@ const ParallaxComponent = () => {
           data-distance="1800"
         />
         <img
-          src="img/fog_5.png"
+          src={fog5}
           alt="img7"
           data-speedx="0.16"
           data-speedy="0.105"
@@ -155,7 +157,7 @@ const ParallaxComponent = () => {
           data-distance="1900"
         />
         <img
-          src="img/mountain_7.png"
+          src={mountain7}
           alt="img8"
           data-speedx="0.1"
           data-speedy="0.1"
@@ -178,7 +180,7 @@ const ParallaxComponent = () => {
         </div>
 
         <img
-          src="img/mountain_6.png"
+          src={mountain6}
           alt="img9"
           data-speedx="0.065"
           data-speedy="0.05"
@@ -188,7 +190,7 @@ const ParallaxComponent = () => {
           data-distance="2300"
         />
         <img
-          src="img/fog_4.png"
+          src={fog4}
           alt="img10"
           data-speedx="0.135"
           data-speedy="0.32"
@@ -198,7 +200,7 @@ const ParallaxComponent = () => {
           data-distance="2400"
         />
         <img
-          src="img/mountain_5.png"
+          src={mountain5}
           alt="img11"
           data-speedx="0.08"
           data-speedy="0.018"
@@ -208,7 +210,7 @@ const ParallaxComponent = () => {
           data-distance="2550"
         />
         <img
-          src="img/fog_3.png"
+          src={fog3}
           alt="img12"
           data-speedx="0.11"
           data-speedy="0.10.018"
@@ -218,7 +220,7 @@ const ParallaxComponent = () => {
           data-distance="2800"
         />
         <img
-          src="img/mountain_4.png"
+          src={mountain4}
           alt="img13"
           data-speedx="0.059"
           data-speedy="0.024"
@@ -228,7 +230,7 @@ const ParallaxComponent = () => {
           data-distance="3200"
         />
         <img
-          src="img/mountain_3.png"
+          src={mountain3}
           alt="img14"
           data-speedx="0.04"
           data-speedy="0.018"
@@ -238,7 +240,7 @@ const ParallaxComponent = () => {
           data-distance="3400"
         />
         <img
-          src="img/fog_2.png"
+          src={fog2}
           alt="img15"
           data-speedx="0.15"
           data-speedy="0.0115"
@@ -248,7 +250,7 @@ const ParallaxComponent = () => {
           data-distance="3600"
         />
         <img
-          src="img/mountain_2.png"
+          src={mountain2}
           alt="img16"
           data-speedx="0.0235"
           data-speedy="0.013"
@@ -258,7 +260,7 @@ const ParallaxComponent = () => {
           data-distance="3800"
         />
         <img
-          src="img/mountain_1.png"
+          src={mountain1}
           alt="img17"
           data-speedx="0.027"
           data-speedy="0.018"
@@ -267,10 +269,10 @@ const ParallaxComponent = () => {
           className="parallax mountain-1"
           data-distance="4000"
         />
-        <img src="img/sun_rays.png" alt="img18" className="sun-rays" />
-        <img src="img/black_shadow.png" alt="img19" className="black-shadow" />
+        <img src={sunrays} alt="img18" className="sun-rays" />
+        <img src={blackshadow} alt="img19" className="black-shadow" />
         <img
-          src="img/fog_1.png"
+          src={fog1}
           alt="img20"
           data-speedx="0.12"
           data-speedy="0.1"
